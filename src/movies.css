@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+h1{
+    text-align: center;
+    padding:20px;
+    color: white;
+}
+.movie-list img{
+    width:300px;
+    height:200px;
+    padding: 10px;
+}
+
+
